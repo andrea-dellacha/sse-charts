@@ -19,7 +19,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-  modules: ["dayjs-nuxt", "@nuxtjs/color-mode", "@vueuse/nuxt"],
+  modules: ["dayjs-nuxt", "@vueuse/nuxt"],
   dayjs: {
     locales: ["en"],
     defaultLocale: "en",
