@@ -28,19 +28,18 @@ I could also spend more time searching better ideas for the design, or add a dar
 
 ## Requirements
 
-For development, you will only need Node.js installed on your environement.
+For development, you will only need Node.js installed on your environement. I used node.js version 20.0.0
 
     $ node --version
-    v18.0.0 or newer
+    v18.0.0 or <=21.0.0
 
 ### Setup
 
 Make sure to install the dependencies:
 
-```bash
-# pnpm
-pnpm install
+I have an installation issue between pnpm and dayjs-nuxt, I didn't find how to fix it yet. If you want to use pnpm, first use yarn install.
 
+```bash
 # yarn
 yarn install
 

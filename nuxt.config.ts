@@ -27,6 +27,9 @@ export default defineNuxtConfig({
     plugins: ["timezone", "isoWeek"],
   },
   vite: {
+    optimizeDeps: {
+      include: ["mermaid"],
+    },
     css: {
       preprocessorOptions: {
         scss: {
