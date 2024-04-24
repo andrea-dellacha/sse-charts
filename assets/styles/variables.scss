@@ -1,0 +1,28 @@
+//
+// Spacers — Because sometimes we need to let elements breathe
+//
+$spacing-none: 0;
+$spacing-xxxx-sm: 3px;
+$spacing-xxx-sm: 6px;
+$spacing-xx-sm: 12px;
+$spacing-x-sm: 18px;
+$spacing-sm: 24px;
+$spacing-md: 30px;
+$spacing-lg: 36px;
+$spacing-x-lg: 48px;
+$spacing-xx-lg: 60px;
+
+// Radius
+// --------------------------------------------------
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+
+// Grays
+// --------------------------------------------------
+$upf-gray: #c9c9c9;
+$upf-gray-light: #f9f9f9;
+$upf-gray-dark: darken($upf-gray, 20);
+
+// Primary
+// --------------------------------------------------
+$color-primary-500: #A241FF;

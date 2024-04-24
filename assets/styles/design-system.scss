@@ -1,0 +1,16 @@
+.upf-card {
+  display: inline-block;
+  margin: $spacing-xx-sm;
+  padding: $spacing-x-lg $spacing-x-sm;
+  border-radius: $border-radius-sm;
+  text-align: center;
+  box-shadow: 0 5px 20px 10px darken($upf-gray-light, 2%);
+  transition: transform 0.3s ease;
+}
+
+.upf-card:hover {
+  transform: scale(1.03);
+  .upf-card__header {
+    color: $color-primary-500;
+  }
+}
